@@ -11,7 +11,7 @@ ul {
     list-style: none;
 }
 #container{
-    background: #ede9cc;
+    background: #ede9cc url("imagens/bg-container.png") top center repeat-y;
     margin: 0px auto;
     min-width: 740px;
     max-width: 1180px;
@@ -99,5 +99,57 @@ ul#navegacao a:hover {
     width: 226px;
     height: 164px;
     float: right;
+}
+/*area conteudos*/
+#area-principal {
+    background: url("imagens/bg-area-principal.png") top left repeat-x;
+    width: 50%;
+    float: left;
+    padding: 15px 0px;
+}
+#area-secundaria {
+    width: 50%;
+    float: right;
 
+    padding: 20px 0;
+}
+.conteudo {
+    width: 90%;
+    margin: 0 auto;
+}
+h2 {
+    color:#7d7640;
+    padding: 5px 0px;
+    font-size: 1.1em;
+}
+#rodape {
+    background: #fff url("imagens/bg-rodape.png") repeat-x top;
+    color:#7d7640;
+    padding: 16px;
+    clear: both;
+}
+/*formatacao conteudo lateral*/
+#beneficios li {
+    padding: 8px;
+    height: 6em;
+    border-bottom: 1px solid #f3efcb;
+}
+#beneficios li a img {
+    float: left;
+    margin-right: 8px;
+}
+#beneficios li a {
+    color: #222;
+}
+#beneficios li a p {
+    font-size: 0.8em;
+}
+#beneficios li a h3 {
+    background: url("imagens/ornamento.png") no-repeat center right ;
+    color: #615b2d;
+    padding: 5px 0px;
+}
+#beneficios li:hover {
+    border-radius: 4px;
+    background: #f6f3d6;
 }
